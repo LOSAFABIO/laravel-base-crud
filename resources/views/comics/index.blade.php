@@ -28,8 +28,7 @@
             <td>{{$elemento->series}}</th>
             <td>{!!$elemento->sale_date!!}</th>
             <td>{{$elemento->type}}</th>
-            {{-- <td><a href="{{route("products.show", $elemento->id)}}"> --}}
-            <button type="button" class="btn btn-primary">vedi</button></a></th>
+            {{-- <button type="button" class="btn btn-primary">vedi</button></a></th> --}}
         </tr>
         @endforeach
       
