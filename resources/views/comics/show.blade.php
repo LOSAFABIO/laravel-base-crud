@@ -7,11 +7,11 @@
   <img src="{{$comic->thumb}}" alt="">
   <p>{!!$comic->description!!}</p>
   <a href="{{route("comic.index")}}">
-    <button type="button" class="btn btn-primary">back</button>
+    <button type="button" class="btn btn-primary">Torna indietro</button>
   </a>
   <form action="{{route("comic.destroy", $comic->id)}}" method="POST">
     @csrf
     @method("DELETE")
-    <button type="submit" class="btn btn-danger">cancella</button>
+    <button type="submit" class="btn btn-danger">Cancella</button>
   </form>
 @endsection
