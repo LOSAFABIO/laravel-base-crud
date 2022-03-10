@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return redirect()->route('comic.index');
+});
+
 Route::resource('comic', 'ComicController');
