@@ -1,6 +1,6 @@
 <?php
 
-use App\Comic;
+use App\    Comic;
 
 use Illuminate\Database\Seeder;
 

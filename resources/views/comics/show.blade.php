@@ -3,7 +3,9 @@
 @section('title','comic')
 
 @section('content')
-  <h1>{{$product->name}}</h1>
-  <p>{!!$product->description!!}</p>
-  <a href="{{route("products.index")}}"><button type="button" class="btn btn-primary">back</button></a>
+  <h1>{{$comic->name}}</h1>
+  <p>{!!$comic->description!!}</p>
+  <a href="{{route("comic.index")}}">
+    <button type="button" class="btn btn-primary">back</button>
+  </a>
 @endsection
