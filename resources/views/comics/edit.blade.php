@@ -36,6 +36,6 @@
             <label for="type">Tipologia</label>
             <input type="text" class="form-control" id="type" name="type" placeholder="Inserisci tipologia" value="{{$comic->type}}">
         </div>
-        <button type="submit" class="btn btn-primary">Salva</button>
+        <button type="submit" class="btn btn-success">Salva</button>
     </form>
 @endsection

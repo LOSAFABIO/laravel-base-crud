@@ -4,7 +4,7 @@
 
 @section('content')
 <table class="table">
-  <a href="{{route("comic.create")}}"><button type="button" class="btn btn-primary">Crea nuovo</button></a>
+  <a href="{{route("comic.create")}}"><button type="button" class="btn btn-secondary">Crea nuovo</button></a>
   <thead>
       <tr>
         <th scope="col">#</th>
