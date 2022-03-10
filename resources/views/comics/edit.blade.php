@@ -18,7 +18,7 @@
         </div>
         <div class="form-group">
             <label for="thumb">Copertina</label>
-            <input type="file" class="form-control-file" id="thumb" name="thumb" placeholder="Inserisci immagine" value="{{$comic->thumb}}">
+            <input type="text" class="form-control-file" id="thumb" name="thumb" placeholder="Inserisci immagine" value="{{$comic->thumb}}">
         </div>
         <div class="form-group">
             <label for="price">Prezzo</label>

@@ -16,7 +16,7 @@
         </div>
         <div class="form-group">
             <label for="thumb">Immagine</label>
-            <input type="file" class="form-control-file" id="thumb" name="thumb">
+            <input type="text" class="form-control-file" id="thumb" name="thumb">
         </div>
         <div class="form-group">
             <label for="price">Prezzo</label>

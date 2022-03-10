@@ -6,8 +6,10 @@
   <h1>{{$comic->title}}</h1>
   <img src="{{$comic->thumb}}" alt="">
   <p>{!!$comic->description!!}</p>
+  <p>{{$comic->series}}</p>
+
   <a href="{{route("comic.index")}}">
-    <button type="button" class="btn btn-primary">Torna indietro</button>
+    <button type="button" class="btn btn-primary">Vai alla Home</button>
   </a>
   <form action="{{route("comic.destroy", $comic->id)}}" method="POST">
     @csrf
