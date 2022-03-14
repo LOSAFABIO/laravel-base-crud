@@ -8,10 +8,10 @@
   <p>{!!$comic->description!!}</p>
   <p>{{$comic->series}}</p>
 
-  <a href="{{route("comic.index")}}">
+  <a href="{{route("comics.index")}}">
     <button type="button" class="btn btn-primary">Vai alla Home</button>
   </a>
-  <form action="{{route("comic.destroy", $comic->id)}}" method="POST">
+  <form action="{{route("comics.destroy", $comic->id)}}" method="POST">
     @csrf
     @method("DELETE")
     <button onclick="return confirm('Sicuro di voler cancellare questo fumetto?');" type="submit" class="btn btn-danger">Cancella</button>
